@@ -1,6 +1,6 @@
 # VREP Camera Calibration
 
-Foobar is a Python library for dealing with word pluralization.
+This is a VREP scene driven by Lua script to automatically calibrate vision sensors using a robot arm.
 ## Prerequisits
 1. Ubuntu 18.04
 2. ROS Melodic
@@ -19,7 +19,7 @@ rosdep install camera_calibration
 
 ## Usage
 [Demo video](https://drive.google.com/file/d/1uytOtvPoK4TTkAG8JTddCYmRFIGdj-49/view?usp=sharing)
-1. Change the path variable in the scripts associate to Plane and LBR_iiwa_7_R800. It's where you want to save table of waypoints.
+1. Change the path variable in the scripts associate to Plane and LBR_iiwa_7_R800. It's where you want to save table of waypoints. To use pre-recorded waypoints which are enough for the calibration, change the path to the location of test-tbl.lua
 
 2. Run calibrate_camera.ttt. To adjust joint angles, use the slide bars. To load, record, save, or play waypoints, use the buttons. Make sure to save the waypoints before playing.
 
